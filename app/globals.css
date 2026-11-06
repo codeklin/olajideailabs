@@ -292,8 +292,8 @@ a { color: inherit; text-decoration: none; }
 /* Hero Builder Portrait Card */
 .hero-photo-card {
   position: relative;
-  width: 320px;
-  max-width: 88%;
+  width: 330px;
+  max-width: 90%;
   border-radius: 6px;
   overflow: hidden;
   border: 1px solid rgba(245, 158, 11, 0.28);
@@ -326,7 +326,9 @@ a { color: inherit; text-decoration: none; }
   width: 100%;
   aspect-ratio: 4/5;
   object-fit: cover;
-  object-position: top center;
+  object-position: center 18%;
+  transform: scale(1.16);
+  transform-origin: center 22%;
   filter: saturate(0.96) contrast(1.04);
 }
 .hero-photo-overlay {
@@ -1239,6 +1241,7 @@ a { color: inherit; text-decoration: none; }
 
 /* Mobile Responsiveness */
 @media (max-width: 1024px) {
+  .nav-desktop-only { display: none !important; }
   .container { width: min(100% - 32px, 600px); }
   .nav { height: 68px; }
   .nav-cta { display: none; }
@@ -1344,7 +1347,7 @@ a { color: inherit; text-decoration: none; }
   .proof { align-items: flex-start; }
   .proof span:last-child { max-width: 230px; line-height: 1.4; }
   .hero-art { min-height: 410px; }
-  .hero-photo-card { width: 270px; }
+  .hero-photo-card { width: 285px; }
   .floating-chip { right: 8px; bottom: 12px; font-size: 11px; padding: 7px 12px; }
   .footer-inner { grid-template-columns: 1fr; }
   .footer-social { justify-self: start; }
