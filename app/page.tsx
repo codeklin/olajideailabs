@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { ArrowUpRight, BriefcaseBusiness, Check, ChevronDown, Globe2, Menu, Send, Sparkles, X, Zap } from 'lucide-react'
+import { ArrowUpRight, BriefcaseBusiness, Check, ChevronDown, Globe2, Send, Sparkles, Zap } from 'lucide-react'
 
 const links = {
   nestuge: '#',
@@ -57,8 +57,7 @@ export default function Page() {
       <header className="nav-wrap">
         <nav className="nav container" aria-label="Main navigation">
           <a href="#top" className="brand" aria-label="Olajide AILabs home">
-            <span className="brand-mark"><span>O</span></span>
-            <span>Olajide <b>AI</b>Labs</span>
+            <img src="/olajideailab.png" alt="Olajide AILabs" />
           </a>
           <div className={`nav-links ${menuOpen ? 'is-open' : ''}`}>
             <a href="#training" onClick={() => setMenuOpen(false)}>Training tiers</a>
@@ -67,7 +66,7 @@ export default function Page() {
             <a className="nav-mobile-cta" href="#community" onClick={() => setMenuOpen(false)}>Join free community <ArrowUpRight size={15} /></a>
           </div>
           <a className="button button-small nav-cta" href="#community">Join free community <ArrowUpRight size={15} /></a>
-          <button className="menu-button" aria-label={menuOpen ? 'Close menu' : 'Open menu'} onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <X /> : <Menu />}</button>
+          <button className={`menu-button ${menuOpen ? 'is-open' : ''}`} aria-label={menuOpen ? 'Close menu' : 'Open menu'} aria-expanded={menuOpen} onClick={() => setMenuOpen(!menuOpen)}><span className="menu-lines" aria-hidden="true"><i /><i /><i /></span></button>
         </nav>
       </header>
 
@@ -97,7 +96,7 @@ export default function Page() {
 
       <section className="faq-section container"><div className="faq-title"><span className="section-number">04 — QUICK CLARITY</span><h2>Questions,<br /><em>answered.</em></h2></div><div className="faq-list">{faqs.map(([q, a], i) => <div className={`faq-item ${openFaq === i ? 'open' : ''}`} key={q}><button onClick={() => setOpenFaq(openFaq === i ? null : i)} aria-expanded={openFaq === i}><span>0{i + 1}</span><strong>{q}</strong><ChevronDown /></button>{openFaq === i && <motion.p initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }}>{a}</motion.p>}</div>)}</div></section>
 
-      <footer className="footer"><div className="container footer-inner"><a href="#top" className="brand"><span className="brand-mark"><span>O</span></span><span>Olajide <b>AI</b>Labs</span></a><p>Practical, zero-fluff AI engineering<br />& digital monetization.</p><div className="footer-social"><a href="#top" aria-label="Website"><Globe2 /></a><a href="#top" aria-label="Business profile"><BriefcaseBusiness /></a></div><small>© 2026 Olajide AILabs. All rights reserved.</small></div></footer>
+      <footer className="footer"><div className="container footer-inner"><a href="#top" className="brand"><img src="/olajideailab.png" alt="Olajide AILabs" /></a><p>Practical, zero-fluff AI engineering<br />& digital monetization.</p><div className="footer-social"><a href="#top" aria-label="Website"><Globe2 /></a><a href="#top" aria-label="Business profile"><BriefcaseBusiness /></a></div><small>© 2026 Olajide AILabs. All rights reserved.</small></div></footer>
     </main>
   )
 }
