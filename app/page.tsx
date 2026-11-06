@@ -177,8 +177,8 @@ const faqs = [
     'Yes, seriously. Everything is built and tested on a phone. A laptop might help later when you want to scale, but you can build, package, price, and launch your first digital product without ever touching one.',
   ],
   [
-    'What if Stripe or PayPal do not work in my country?',
-    'That is exactly why this exists. We use Nestuge and Selar, which are built for African sellers. Your customers pay by card, USSD, or bank transfer, and the money lands in your local account. No workarounds, no frozen funds.',
+    'How can I pay for your books?',
+    'You can pay through Nestuge or Selar. Both support options such as card, USSD, or bank transfer.',
   ],
   [
     'Is this for complete beginners or do I need a background in tech?',
@@ -186,7 +186,7 @@ const faqs = [
   ],
   [
     'What do I get when I join the community?',
-    'Daily prompts you can use on your phone right now, live sessions where we break down real workflows, early access to cohort announcements, and a room full of Nigerian and African builders who are actively shipping, not just talking about it.',
+    'You’ll find practical prompts, occasional live sessions, cohort updates, and a community of Nigerian and African builders sharing what they’re working on.',
   ],
 ]
 
