@@ -25,16 +25,16 @@ const tiers = [
     wmPath: BLOB_PATHS.wmCard5,
     tintIndex: 0 as const,
     name: 'AI Money Lab',
-    type: 'Zero-Cost Entry Point',
-    description: 'For those ready to stop scrolling and start testing.',
+    type: 'Free Entry Point',
+    description: 'You keep watching, but nothing is happening. Start here. Zero cost, zero laptop, zero excuses.',
     price: 'FREE',
     features: [
-      'Live smartphone prompt teardowns',
-      'Zero laptop needed',
-      'Direct community access',
-      'Free mobile AI tool stack',
+      'Live phone-based prompt teardowns',
+      'No laptop required, ever',
+      'Drop into the community immediately',
+      'The exact free AI tools we use daily',
     ],
-    cta: 'Join Free Masterclass →',
+    cta: 'Come in for free →',
     href: '#community',
     featured: false,
   },
@@ -44,16 +44,16 @@ const tiers = [
     wmPath: BLOB_PATHS.wmCard6,
     tintIndex: 1 as const,
     name: 'ShipFastWithAI Mentorship',
-    type: '4-Week Intensive Cohort',
-    description: '4-week intensive execution cohort to turn your skills into a live product.',
+    type: '4-Week Hands-On Cohort',
+    description: 'You have the idea. You just need someone to sit with you and make sure it actually ships.',
     price: 'ENROLLMENT OPEN',
     features: [
-      '1-on-1 workflow reviews',
-      'Nestuge and Selar payment funnel setup',
-      'WhatsApp VIP room access',
-      'Ship a live monetizable digital asset',
+      'Your workflows reviewed 1-on-1',
+      'Full Nestuge and Selar store setup',
+      'Private WhatsApp room with active builders',
+      'Leave with a real product earning real money',
     ],
-    cta: 'Apply for Cohort →',
+    cta: 'Apply for the cohort →',
     href: links.whatsapp,
     featured: true,
   },
@@ -63,16 +63,16 @@ const tiers = [
     wmPath: BLOB_PATHS.wmCard7,
     tintIndex: 2 as const,
     name: 'Executive & Institutional Consulting',
-    type: 'Enterprise & Advisory',
-    description: 'For founders, lecturers, and enterprise teams seeking custom AI integration and staff upskilling.',
+    type: 'Private Advisory',
+    description: 'Your team is behind. Your institution is still printing PowerPoints. Let\'s fix that properly.',
     price: 'BESPOKE',
     features: [
-      'Custom team workflow automation',
-      'Staff and faculty AI literacy workshops',
-      'Private executive strategy session',
-      'Tailored implementation roadmap',
+      'Custom AI rollout for your whole team',
+      'Staff training that actually sticks',
+      'Private strategy session with Olajide',
+      'A clear 90-day implementation plan',
     ],
-    cta: 'Book Strategy Session →',
+    cta: 'Book a strategy session →',
     href: links.linkedin,
     featured: false,
   },
@@ -85,20 +85,20 @@ const realityModules = [
     noise: {
       number: '01',
       path: BLOB_PATHS.noise1,
-      tag: 'HARDWARE GATE',
-      status: 'BLOCKED BY CAPITAL',
-      title: 'The ₦1.5M Workstation Myth',
-      detail: 'Told you need an M-series MacBook or ₦1.5M desktop workstation before you can run serious AI workflows.',
-      meta: 'HARDWARE REQUIREMENT: ₦1,500,000+',
+      tag: 'WHAT THEY TELL YOU',
+      status: 'KILLS YOUR START',
+      title: 'You need a ₦1.5M laptop first.',
+      detail: 'Every tutorial opens with a MacBook on a desk. Meanwhile your Tecno or Samsung is sitting right there, fully capable and completely ignored.',
+      meta: 'THE MYTH: ₦1,500,000 BEFORE YOU BEGIN',
     },
     ship: {
       number: '01',
       path: BLOB_PATHS.framework1,
-      tag: 'MOBILE NATIVE',
-      status: 'DEVICE ACCESSIBLE',
-      title: '100% Smartphone Execution',
-      detail: 'Execute high-yield prompt architectures and product builds directly on Android or iOS. Zero laptop needed to launch.',
-      meta: 'HARDWARE NEEDED: ZERO LAPTOP',
+      tag: 'WHAT ACTUALLY WORKS',
+      status: 'START TODAY',
+      title: 'Your phone is already the tool.',
+      detail: 'Every workflow we teach is built and tested on a smartphone. Android, iOS, it does not matter. If you can read this, you have everything you need to start.',
+      meta: 'WHAT YOU NEED: THE PHONE IN YOUR HAND',
     },
   },
   {
@@ -107,20 +107,20 @@ const realityModules = [
     noise: {
       number: '02',
       path: BLOB_PATHS.noise2,
-      tag: 'SUBSCRIPTION TRAP',
+      tag: 'THE SUBSCRIPTION TRAP',
       status: 'CARD DECLINE LOOP',
-      title: 'The $60/Month SaaS Trap',
-      detail: 'Required to pay for multiple foreign subscriptions that drain your budget and repeatedly decline on local debit cards.',
-      meta: 'MONTHLY DRAIN: $20 TO $60/MO',
+      title: '$60 a month on tools that keep declining.',
+      detail: 'You finally commit, enter your card, and it fails. Again. Foreign subscriptions were never designed with your bank or your budget in mind.',
+      meta: 'THE DRAIN: $20 TO $60 EVERY MONTH',
     },
     ship: {
       number: '02',
       path: BLOB_PATHS.framework2,
-      tag: 'FREE AI STACK',
-      status: 'HIGH-LEVERAGE',
-      title: 'The Zero-Cost Model Stack',
-      detail: 'Leverage battle-tested free-tier AI tools tuned for rapid asset creation with zero recurring subscription fees.',
-      meta: 'RECURRING OVERHEAD: ₦0/MONTH',
+      tag: 'THE FREE STACK',
+      status: 'ZERO MONTHLY COST',
+      title: 'The same output. Zero subscriptions.',
+      detail: 'We use free-tier AI tools that actually work. No dollar card needed. No monthly fee eating your budget. Just the tools, and how to use them well.',
+      meta: 'YOUR OVERHEAD: ₦0 PER MONTH',
     },
   },
   {
@@ -129,20 +129,20 @@ const realityModules = [
     noise: {
       number: '03',
       path: BLOB_PATHS.noise3,
-      tag: 'THEORY PARALYSIS',
-      status: '20 TABS OPEN',
-      title: '2-Hour YouTube Rabbit Holes',
-      detail: 'Endless theoretical tutorial streams that leave you exhausted, confused, and with zero executable digital assets.',
-      meta: 'OUTCOME: ZERO SHIPPED ASSETS',
+      tag: 'THE TUTORIAL SPIRAL',
+      status: '20 TABS, ZERO SHIPPED',
+      title: 'You have watched 40 hours of YouTube. Nothing shipped.',
+      detail: 'More videos, more notes, more saved playlists. But no product, no income, no proof. Watching is not the same as building.',
+      meta: 'THE RESULT: INFORMATION, NO OUTPUT',
     },
     ship: {
       number: '03',
       path: BLOB_PATHS.framework3,
-      tag: 'SPRINT EXECUTION',
-      status: 'FAST-TRACK',
-      title: 'Step-by-Step Ship Blueprints',
-      detail: 'Structured, repeatable creation workflows that turn your skills into a packaged, sellable digital product within days.',
-      meta: 'CYCLE TIME: CONCEPT TO LIVE ASSET',
+      tag: 'THE BUILD SYSTEM',
+      status: 'SHIP IN DAYS',
+      title: 'A repeatable blueprint from idea to live product.',
+      detail: 'Step-by-step workflows that move you from blank page to packaged, listed, and selling. You will ship your first digital product faster than you expect.',
+      meta: 'THE CYCLE: IDEA TO LIVE PRODUCT',
     },
   },
   {
@@ -151,20 +151,20 @@ const realityModules = [
     noise: {
       number: '04',
       path: BLOB_PATHS.noise4,
-      tag: 'PAYMENT DEAD END',
-      status: 'GEO-LOCKED',
-      title: 'The Stripe & PayPal Barrier',
-      detail: 'Western tutorials pushing payment platforms that lock African creators out of merchant accounts and freeze funds.',
-      meta: 'PAYOUT STATUS: ACCESS DENIED',
+      tag: 'THE PAYMENT WALL',
+      status: 'GEO-BLOCKED',
+      title: 'Stripe says your country is not supported.',
+      detail: 'You built the product. You found the customer. Then Stripe freezes the account or blocks the signup entirely. Your geography is not a failure, it is just the wrong tool.',
+      meta: 'THE BLOCK: ACCESS DENIED AT CHECKOUT',
     },
     ship: {
       number: '04',
       path: BLOB_PATHS.framework4,
-      tag: 'LOCAL SETTLEMENT',
-      status: 'BANK INTEGRATED',
-      title: 'Nestuge & Selar Payment Rails',
-      detail: 'Direct integration with accessible African checkout funnels. Earnings deposit straight to your local Nigerian bank account.',
-      meta: 'PAYOUT: DIRECT LOCAL BANK TRANSFER',
+      tag: 'LOCAL PAYMENT RAILS',
+      status: 'PAYS TO YOUR BANK',
+      title: 'Nestuge and Selar pay you in naira. Directly.',
+      detail: 'African checkout platforms built for African sellers. Your customers pay by card, USSD, or bank transfer. Your earnings land in your account without the drama.',
+      meta: 'THE PAYOUT: STRAIGHT TO YOUR LOCAL BANK',
     },
   },
 ]
@@ -172,19 +172,19 @@ const realityModules = [
 const faqs = [
   [
     'Do I really need zero laptop to begin?',
-    'Yes. Every core workflow is designed and tested on smartphones. A laptop is helpful later for scale, but it is never a prerequisite to build, package, and launch your first digital product.',
+    'Yes, seriously. Everything is built and tested on a phone. A laptop might help later when you want to scale, but you can build, package, price, and launch your first digital product without ever touching one.',
   ],
   [
-    'What if foreign payment gateways like Stripe do not support my country?',
-    'That is precisely why we build around accessible African payment rails like Nestuge and Selar. Your customers pay via cards, USSD, or local bank transfers, and earnings deposit straight to your local bank.',
+    'What if Stripe or PayPal do not work in my country?',
+    'That is exactly why this exists. We use Nestuge and Selar, which are built for African sellers. Your customers pay by card, USSD, or bank transfer, and the money lands in your local account. No workarounds, no frozen funds.',
   ],
   [
-    'Is this training suitable for complete beginners?',
-    'Yes. We cut through complex technical jargon. If you know how to operate WhatsApp, download apps, and follow structured instructions, you can follow these workflows.',
+    'Is this for complete beginners or do I need a background in tech?',
+    'If you can use WhatsApp, download an app, and follow instructions, you can follow these workflows. We skip the jargon and go straight to what you actually need to do, in order, step by step.',
   ],
   [
-    'What happens once I join the community?',
-    'You get access to daily mobile prompts, live breakdown sessions, cohort announcements, and a room of fellow Nigerian and African builders actively shipping.',
+    'What do I get when I join the community?',
+    'Daily prompts you can use on your phone right now, live sessions where we break down real workflows, early access to cohort announcements, and a room full of Nigerian and African builders who are actively shipping, not just talking about it.',
   ],
 ]
 
@@ -241,7 +241,7 @@ export default function Page() {
           >
             Practical AI workflows for African builders.
             <br />
-            <em>Starting with the phone in your hand.</em>
+            <em>Your phone is enough to start.</em>
           </motion.h1>
 
           <motion.p
@@ -250,7 +250,7 @@ export default function Page() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Forget ₦1.5M laptops and complex setups. Master battle-tested AI workflows built specifically for Nigerian and African creators to turn ideas into digital products, directly from your smartphone.
+            You have been told you need a ₦1.5M laptop, a dollar card, and 6 months of studying before you can earn anything from AI. None of that is true. Here is what actually works.
           </motion.p>
 
           <motion.div
@@ -260,63 +260,50 @@ export default function Page() {
             transition={{ duration: 0.5, delay: 0.35 }}
           >
             <a className="button" href="#training">
-              Explore Training Tiers →
+              See how the training works →
             </a>
             <a className="button button-glass" href="#community">
-              <span className="live-dot" /> Join Free WhatsApp & Telegram
+              <span className="live-dot" /> Join the free community
             </a>
           </motion.div>
 
           <div className="proof">
             <div className="avatar-stack">
-              <span>O</span>
-              <span>A</span>
-              <span>I</span>
-              <span>+</span>
+              <img src="/ailab1.png" alt="Community member" />
+              <img src="/ailab2.png" alt="Community member" />
+              <img src="/ailab3.png" alt="Community member" />
+              <img src="/ailab4.png" alt="Community member" />
             </div>
             <span>
-              Empowering <strong>1,000+ Nigerian Youth, Builders & Digital Product Creators</strong>
+              Over <strong>1,000 Nigerian builders and digital creators</strong> already inside
             </span>
           </div>
         </div>
 
-        {/* Hero Visual: Grounded Architecture Pipeline with Organic Blob Watermark */}
-        <div className="hero-art" aria-label="Smartphone execution architecture">
+        {/* Hero Visual: Founder Portrait with Grounded Organic Accents */}
+        <div className="hero-art" aria-label="Olajide Igbalaye, Builder and Mentor">
           <BlobWatermark path={BLOB_PATHS.wmHero} color="#F59E0B" />
 
           <motion.div
-            className="pipeline-card"
+            className="hero-photo-card"
             animate={{ y: [0, -6, 0] }}
             transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut' }}
           >
-            <div className="pipeline-top">
-              <span className="mini-label">WORKFLOW / 001</span>
-              <span className="status"><i /> SMARTPHONE ACTIVE</span>
-            </div>
+            <span className="hero-photo-tag">
+              <span className="live-dot" /> BUILDER IN STUDIO
+            </span>
 
-            <div className="pipeline-title">
-              Mobile Digital Asset<br />
-              <span>Production Pipeline</span>
-            </div>
+            <img
+              src="/olajideailabsceo.png"
+              alt="Olajide Igbalaye"
+              className="hero-photo-img"
+            />
 
-            <div className="pipeline-steps">
-              <div className="pipeline-step">
-                <span className="pipeline-step-num">01</span>
-                <span>Mobile Prompt Architecture</span>
-              </div>
-              <div className="pipeline-step">
-                <span className="pipeline-step-num">02</span>
-                <span>Digital Asset Packaging</span>
-              </div>
-              <div className="pipeline-step">
-                <span className="pipeline-step-num">03</span>
-                <span>Nestuge & Selar Payment Rails</span>
-              </div>
-            </div>
+            <div className="hero-photo-overlay" />
 
-            <div className="pipeline-footer">
-              <span>LOCAL PAYOUTS</span>
-              <strong>ACTIVE TO BANK</strong>
+            <div className="hero-photo-caption">
+              <span className="hero-photo-role">FOUNDER &amp; PRACTITIONER</span>
+              <strong className="hero-photo-name">Olajide Igbalaye</strong>
             </div>
           </motion.div>
 
@@ -358,13 +345,13 @@ export default function Page() {
             <div>
               <span className="section-number">01 / THE REALITY CHECK</span>
               <h2>
-                The Friction You Face.
+                What you keep hearing.
                 <br />
-                <em>The System That Ships.</em>
+                <em>What is actually true.</em>
               </h2>
             </div>
             <p>
-              Western tutorials assume infinite budgets, ₦1.5M laptops, and foreign credit cards. Olajide AILabs is engineered specifically for the African builder standing in the real world.
+              Every AI tutorial you find online was made for someone with a MacBook, a dollar card, and no data cap. We built this for everyone else.
             </p>
           </div>
 
@@ -444,13 +431,13 @@ export default function Page() {
           <div>
             <span className="section-number">02 / DIGITAL ASSETS</span>
             <h2>
-              Frameworks that
+              Tools you can
               <br />
-              <em>move you forward.</em>
+              <em>actually use today.</em>
             </h2>
           </div>
           <p>
-            Skip the loud online advice. Get the exact blueprints and workflows to build, package, and sell high-ticket digital products directly on your phone.
+            No theory, no filler. These are the exact blueprints and templates we use to build and sell digital products on a smartphone. Download and start.
           </p>
         </div>
 
@@ -492,7 +479,7 @@ export default function Page() {
               <div>
                 <h3>The Mobile AI Monetization Playbook</h3>
                 <p>
-                  The exact blueprint to build, package, and sell high-ticket digital products directly on your phone without touching a line of complex code.
+                  You have the phone. This is the blueprint. Build, package, and sell your first digital product without writing a single line of code.
                 </p>
               </div>
               <span className="circle-arrow">
@@ -537,7 +524,7 @@ export default function Page() {
               <div>
                 <h3>Smartphone Prompt Engineering & AI Workflows</h3>
                 <p>
-                  Cut through the prompt clutter. Copy-paste battle-tested frameworks tuned for image generation, copywriting, and daily automation.
+                  Stop guessing at prompts. These are copy-paste frameworks for image generation, copywriting, and daily automation. All tested on a phone.
                 </p>
               </div>
               <span className="circle-arrow">
@@ -555,13 +542,13 @@ export default function Page() {
             <div>
               <span className="section-number">03 / TRAINING PROGRAMS</span>
               <h2>
-                Choose your
+                Where do you
                 <br />
-                <em>next move.</em>
+                <em>want to start?</em>
               </h2>
             </div>
             <p>
-              Whether you are working shifts, studying, freelancing, or building after hours, choose the practical move that fits your current stage.
+              Whether you are running shifts, studying, or just tired of watching from the sidelines, pick the option that matches where you are right now.
             </p>
           </div>
 
@@ -620,12 +607,12 @@ export default function Page() {
           <div>
             <span className="section-number">04 / THE ENGINE ROOM</span>
             <h2>
-              Join the
+              Stop building
               <br />
-              <em>Engine Room.</em>
+              <em>alone.</em>
             </h2>
             <p>
-              Don't build in isolation. Get daily mobile prompts, live event alerts, and direct networking with fellow builders across Nigeria and Africa.
+              The hardest part of building in Africa is not the tools. It is doing it without anyone around you who gets it. Come into the room where people are actually shipping.
             </p>
           </div>
 
@@ -640,7 +627,7 @@ export default function Page() {
               <OrganicBlob path={BLOB_PATHS.tg} label="TG" tintIndex={0} fontSize={20} />
               <span>
                 <strong>Telegram Knowledge Hub</strong>
-                <small>Daily prompts, teardowns and event alerts →</small>
+                <small>Daily prompts, teardowns, and event alerts →</small>
               </span>
               <span className="community-arrow">→</span>
             </a>
@@ -654,8 +641,8 @@ export default function Page() {
               <BlobWatermark path={BLOB_PATHS.wmCard2} color="#10B981" />
               <OrganicBlob path={BLOB_PATHS.wa} label="WA" tintIndex={1} fontSize={20} />
               <span>
-                <strong>WhatsApp VIP Community</strong>
-                <small>Direct networking and cohort discussions →</small>
+                <strong>WhatsApp Builder Community</strong>
+                <small>Where active builders share, ship, and grow →</small>
               </span>
               <span className="community-arrow">→</span>
             </a>
@@ -667,42 +654,43 @@ export default function Page() {
       <section className="about-section" id="about">
         <div className="container about-inner">
           <div className="about-photo-wrap">
+            <BlobWatermark path={BLOB_PATHS.wmCard8} color="#F59E0B" />
             <img
               src="/olajideailabsceo.png"
               alt="Olajide Igbalaye in his studio"
               className="about-photo"
             />
-            <span className="about-photo-label">HOST / BUILDER / EDUCATOR</span>
+            <span className="about-photo-label">BUILDER / EDUCATOR / PRACTITIONER</span>
           </div>
 
           <div className="about-copy">
             <span className="section-number">05 / ABOUT OLAJIDE</span>
             <h2>
-              Build from
+              Built from
               <br />
-              <em>where you are.</em>
+              <em>inside the same walls.</em>
             </h2>
             <p>
-              I help Nigerian and African creators turn curiosity into practical AI skills, digital products, and sustainable income. From the podcast microphone to the smartphone in your hand, the mission is simple: make technology useful, accessible, and yours.
+              I am Olajide. I teach Nigerian and African creators how to turn their phones, their skills, and free AI tools into income. Not in theory. In practice, the same way I did it.
             </p>
             <p>
-              No high-barrier gatekeeping. Just real workflows tested in our local environment that deliver measurable outcomes.
+              No gatekeeping. No prerequisites. Just workflows that work in our environment, with the tools we can actually access.
             </p>
 
             <div className="about-links">
               <a href={links.youtube} target="_blank" rel="noreferrer">
                 <span>YouTube (@remotejd)</span>
-                <small>Builder stories and tutorials</small>
+                <small>Watch how we actually build things</small>
                 <span className="about-arrow">→</span>
               </a>
               <a href={links.linkedin} target="_blank" rel="noreferrer">
                 <span>LinkedIn</span>
-                <small>Professional notes and collaborations</small>
+                <small>Connect, collaborate, work together</small>
                 <span className="about-arrow">→</span>
               </a>
               <a href={links.twitter} target="_blank" rel="noreferrer">
                 <span>Twitter / X</span>
-                <small>Ideas and execution in public</small>
+                <small>Short thoughts, in public, in real time</small>
                 <span className="about-arrow">→</span>
               </a>
               <a href={links.portfolio} target="_blank" rel="noreferrer">
@@ -720,9 +708,9 @@ export default function Page() {
         <div className="faq-title">
           <span className="section-number">06 / QUICK CLARITY</span>
           <h2>
-            Questions,
+            Real questions,
             <br />
-            <em>answered.</em>
+            <em>straight answers.</em>
           </h2>
         </div>
 
@@ -758,7 +746,7 @@ export default function Page() {
             <img src="/olajideailab.png" alt="Olajide AILabs" />
           </a>
           <p>
-            Practical, mobile-first AI engineering and digital product monetization.
+            Practical AI skills and digital product monetization, built for African builders.
           </p>
           <div className="footer-social">
             <a href={links.youtube} target="_blank" rel="noreferrer">
