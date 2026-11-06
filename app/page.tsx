@@ -12,6 +12,8 @@ const links = {
   nestuge: 'https://nestuge.com',
   telegram: 'https://t.me/olajideailabs',
   whatsapp: 'https://chat.whatsapp.com/Fvjxen8MJvR0sKTK6bruKm',
+  cohortApplication: `https://wa.me/2347031098097?text=${encodeURIComponent("Hi, I'd like to apply for the ShipFastWithAI cohort. My name is ____. My current experience is ____.")}`,
+  calendly: 'https://calendly.com/gigsdev007/30min',
   youtube: 'https://www.youtube.com/@remotejd',
   linkedin: 'https://www.linkedin.com/in/olajide-igbalaye',
   twitter: 'https://twitter.com/jidelence',
@@ -54,7 +56,7 @@ const tiers = [
       'Leave with a real product earning real money',
     ],
     cta: 'Apply for the cohort →',
-    href: links.whatsapp,
+    href: links.cohortApplication,
     featured: true,
   },
   {
@@ -73,7 +75,7 @@ const tiers = [
       'A clear 90-day implementation plan',
     ],
     cta: 'Book a strategy session →',
-    href: links.linkedin,
+    href: links.calendly,
     featured: false,
   },
 ]
@@ -207,6 +209,7 @@ export default function Page() {
             <a href="#reality" onClick={() => setMenuOpen(false)}>Reality Check</a>
             <a href="#toolkits" onClick={() => setMenuOpen(false)}>eBooks</a>
             <a href="#training" onClick={() => setMenuOpen(false)}>Training Tiers</a>
+            <a href="/academy" onClick={() => setMenuOpen(false)}>Academy</a>
             <a href="#community" className="nav-desktop-only" onClick={() => setMenuOpen(false)}>Community</a>
             <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
             <a className="nav-mobile-cta" href="#community" onClick={() => setMenuOpen(false)}>
@@ -598,6 +601,23 @@ export default function Page() {
               </motion.article>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="academy-preview">
+        <div className="container academy-preview-inner">
+          <OrganicBlob path={BLOB_PATHS.ebook1} label="A" tintIndex={1} />
+          <div className="academy-preview-copy">
+            <span className="section-number">OLAJIDE AILABS ACADEMY</span>
+            <h2>Practical tech skills, with AI in the workflow.</h2>
+            <p>
+              Explore focused training in web development, design, content, cybersecurity, and marketing.
+              Every program should teach you how to work with AI in practice.
+            </p>
+          </div>
+          <a className="button button-ghost" href="/academy">
+            Visit the Academy →
+          </a>
         </div>
       </section>
 
