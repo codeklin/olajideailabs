@@ -9,7 +9,7 @@ import {
 } from '@/components/OrganicBlob'
 
 const links = {
-  nestuge: 'https://nestuge.com',
+  nestuge: 'https://nestuge.com/uniqueme',
   telegram: 'https://t.me/olajideailabs',
   whatsapp: 'https://chat.whatsapp.com/Fvjxen8MJvR0sKTK6bruKm',
   cohortApplication: `https://wa.me/2347031098097?text=${encodeURIComponent("Hi, I'd like to apply for the ShipFastWithAI cohort. My name is ____. My current experience is ____.")}`,
@@ -277,9 +277,7 @@ export default function Page() {
               <img src="/ailab3.png" alt="Community member" />
               <img src="/ailab4.png" alt="Community member" />
             </div>
-            <span>
-              Over <strong>1,000 Nigerian builders and digital creators</strong> already inside
-            </span>
+            <span>A growing community of <strong>Nigerian and African builders</strong> shipping together</span>
           </div>
         </div>
 
