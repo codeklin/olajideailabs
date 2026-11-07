@@ -210,6 +210,7 @@ export default function Page() {
             <a href="#toolkits" onClick={() => setMenuOpen(false)}>eBooks</a>
             <a href="#training" onClick={() => setMenuOpen(false)}>Training Tiers</a>
             <a href="/academy" onClick={() => setMenuOpen(false)}>Academy</a>
+            <a href="/faceless-youtube" onClick={() => setMenuOpen(false)}>Faceless YouTube</a>
             <a href="#community" className="nav-desktop-only" onClick={() => setMenuOpen(false)}>Community</a>
             <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
             <a className="nav-mobile-cta" href="#community" onClick={() => setMenuOpen(false)}>

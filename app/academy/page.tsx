@@ -4,7 +4,7 @@ import { OrganicBlob, BLOB_PATHS } from '@/components/OrganicBlob'
 export const metadata: Metadata = {
   title: 'Olajide AILabs Academy | Practical Tech Training',
   description:
-    'Explore practical training in AI web development, content creation, cybersecurity, design, and marketing.',
+    'Explore practical training in AI web development, AI video content creation, cybersecurity, design, and marketing.',
 }
 
 const programs = [
@@ -28,9 +28,9 @@ const programs = [
     number: '03',
     path: BLOB_PATHS.ebook1,
     tintIndex: 2 as const,
-    title: 'AI content creation',
+    title: 'AI video content creation',
     description:
-      'Use AI to support research, writing, visual content, and a repeatable publishing process.',
+      'Plan, edit, and publish faceless video with AI tools: phone recording, CapCut editing, free AI voiceover, and a repeatable publishing workflow.',
   },
   {
     number: '04',
